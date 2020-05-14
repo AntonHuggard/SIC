@@ -1,7 +1,7 @@
 <!doctype html5>
 <head>
     <title> Self-Isolation Clock</title>
-    <link rel="icon" href="https://covid19.govt.nz/resources/themes/default/dist/images/lockup.svg" />
+    <link rel="icon" href="https://covid19.govt.nz/_resources/themes/app/dist/images/COVID-19-logo.svg?m=1589335710" />
     <link href='https://fonts.googleapis.com/css?family=Baloo 2' rel='stylesheet'>
     <style>
         .centre {
@@ -39,10 +39,13 @@
     <div id = "wrapper">
         <div id = "invis_box"><div id = "box" class = "centre">
 
-        <p>Alert-level 3 lasts for another</p>
+        <p>New Zealand is currently on alert-level 2.</p>
         <p id = "clock"></p>
-        <p style = "font-size: 30px;">New Zealand was on alert-level 4 from the 26th of March - 27th of April<br>
-        We were last on alert-level 3 from the 23rd - 25th of March</p>
+        <p style = "font-size: 30px;">
+            New Zealand was first on alert-level 3 from the 23rd - 25th of March<br>
+            Alert-level 4 was from the 26th of March - 27th of April<br>
+            New Zealand was then placed back on alert-level 3 from 27th of April - 13th May 
+        </p>
         <script>
             const countDownDate = new Date ("May 13, 2020 22:59:00").getTime();
             const x = setInterval(function() {
