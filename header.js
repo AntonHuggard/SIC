@@ -8,6 +8,6 @@ function getheader() {
     if ((start_time - now) > 0) {
         header_tag.innerText = "New Zealand is going into level 4 at midnight tonight";
     } else {
-        header_tag.innerHTML = "Auckland is at level 4.<br> Stay at home for at least another:";
+        header_tag.innerHTML = "Auckland is at level 3.<br> Stay at home for at least another:";
     }
 }
