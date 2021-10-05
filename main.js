@@ -26,7 +26,7 @@ const x = setInterval(function() {
         document.getElementById("clock").innerHTML = "<strong>" + days + " days " + hours + " hours " + minutes + " minutes and <br>" + seconds + " seconds </strong>";
         if (distance_end < 0) { // after lockdown
             clearInterval(x);
-            document.getElementById("clock").innerHTML = "... You can now leave self-isolation!";
+            document.getElementById("clock").innerHTML = "... I have no idea what's going on any more. But probably stay at home.";
         }
     } else {
         document.getElementById("clock").innerHTML = "you have <strong>" + days + " days " + hours + " hours " + minutes + " minutes and " + seconds + " seconds </strong> of freedom";
